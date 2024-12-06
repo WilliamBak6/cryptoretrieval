@@ -6,7 +6,8 @@ str_package = [
     "sqlite3",
     "mysql-connector-python",
     "json5",
-    "requests"
+    "requests",
+    "sqlalchemy"
 ]
 
 for package in str_package:
