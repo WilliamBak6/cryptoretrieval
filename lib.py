@@ -7,7 +7,8 @@ str_package = [
     "mysql-connector-python",
     "json5",
     "requests",
-    "sqlalchemy"
+    "sqlalchemy",
+    "python-dotenv"
 ]
 
 for package in str_package:

@@ -29,7 +29,7 @@ print(data.columns)
 Data = data[["id", "rank", "symbol", "name", "marketCapUsd"]]
 print(Data.head(5))
 
-Data.to_csv("Cryptolisting.csv", index=True)
+Data.to_csv("Cryptolisting.csv", index=False)
 
 load_dotenv()
 
