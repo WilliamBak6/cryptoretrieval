@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: crytocurrencies
+    description: "Raw Data From our MySQL Database"
+    database: crytocurrencies
+    schema: crytocurrencies
+    tables: 
+      - name: raw_prices_data
+        description: "Raw prices of our Data"
+      - name: coincap_list
+        description: "Listing of our coins" 
+ 
